@@ -63,11 +63,39 @@ object Retry {
   /**
    * EXERCISE
    *
-   * Using the `Schedule#||`, the `fiveTimes` schedule, and the `everySecond`
-   * schedule, create a schedule that repeats the minimum of five times and
-   * every second.
+   * Using `Schedule.dayOfWeek`, create a schedule that recurs every Monday at midnight.
    */
-  val fiveTimesOrEverySecond = ???
+  val everyMonday = ???
+
+  /**
+   * EXERCISE
+   *
+   * Using `Schedule.dayOfWeek`, create a schedule that recurs every Wednesday at midnight.
+   */
+  val everyWednesday = ???
+
+  /**
+   * EXERCISE
+   *
+   * Using `Schedule.hourOfDay`, create a schedule that recurs every day at 4 a.m.
+   */
+  val at4am = ???
+
+  /**
+   * EXERCISE
+   *
+   * Using the `&&` method of the `Schedule` object, the `everyWednesday` schedule,
+   * and the `at4am` schedule, create a schedule that recurs every Wednesday at 4 a.m.
+   */
+  val everyWednesdayAt4am = ???
+
+  /**
+   * EXERCISE
+   *
+   * Using the `Schedule#||` operator, the `everyMonday` schedule, and the `everyWednesdayAt4am`
+   * schedule, create a schedule that recurs every Monday at midnight and every Wednesday at 4 a.m.
+   */
+  val everyMondayOrEveryWednesdayAt4am = ???
 
   /**
    * EXERCISE
